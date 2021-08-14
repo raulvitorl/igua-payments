@@ -1,0 +1,87 @@
+##CONEXAO COM A BASE
+spring:
+  datasource:
+    platform: mysql
+    ##url: jdbc:postgresql://10.254.2.76:5432/postgres?currentSchema=dff&autoReconnect=true
+    ##username: postgres
+    ##password: Op@h123*
+    ##driverClassName: org.postgresql.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/igua_payments?useTimezone=true&serverTimezone=UTC
+    username: apiPagamento
+    password: 12345
+    hikari:
+      connectionTimeout: 2000
+      maximumPoolSize: 10
+    validation-query: select 1
+    test-on-borrow: true
+## Hibernate Properties
+# The SQL dialect makes Hibernate generate better SQL for the chosen database
+#pring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialec
+  jpa:
+    properties:
+      hibernate:
+# Hibernate ddl auto (create, create-drop, validate, update)
+    hibernate:
+      ddl-auto: create-drop
+
+#DADOS DO ESTABELECIMENTO ALTA FLORESTA
+cielo.merchantid.af: 7784c326-6fec-4f0f-8f78-1e2024f04182
+cielo.merchantkey.af: OdvimSzpJj8RCSnQPzZFxSqsYqClD6vgBfTLL872
+
+#DADOS DO ESTABELECIMENTO CANARANA
+cielo.merchantid.ca: 83dbd3ed-769d-4dfb-b9c4-b38f9c8ae510
+cielo.merchantkey.ca: MxOX0nq1mBSNq34XEQO0aUiDpDQ6vKgHhjPsTzbb
+
+#DADOS DO ESTABELECIMENTO CASTILHO
+cielo.merchantid.cs: 78762ffb-67c1-4563-bf4f-afae1ef39be8
+cielo.merchantkey.cs: pCOJ3OjJW57IrJ3liu8RgilR9ohNSgien2mgpIVS
+
+#DADOS DO ESTABELECIMENTO COMODORO
+cielo.merchantid.co: a8eeb322-5037-46b8-a060-590077238372
+cielo.merchantkey.co: mmaQbNomd3TjA1ftfc3DHufyc1Uz1uOalQuE2se2
+
+#DADOS DO ESTABELECIMENTO CUIABA
+cielo.merchantid.cb: 5af25b4c-052d-4cd1-ba89-7fc91d0694d9
+cielo.merchantkey.cb: sEqYY81Fd1m4lLf3ePQUxTsnKCxz1wEeNoXSNeDc
+
+#DADOS DO ESTABELECIMENTO PALESTINA
+cielo.merchantid.pl: 9e3441a4-110d-42ad-9de4-65869f70b3dd
+cielo.merchantkey.pl: H9feFqXL7gHNYjRBp7fqVmcbFKx6SE6BT4rXuOUk
+
+#DADOS DO ESTABELECIMENTO ITAPOA
+cielo.merchantid.it: 9a0aefc7-ed84-4ae1-b3ac-cd8d09b77c58
+cielo.merchantkey.it: UqcPL2vWAhkjDBRqUhQOU689WUQziBZcqp7yyc9n
+
+#DADOS DO ESTABELECIMENTO PARANAGUA
+cielo.merchantid.pr: 77ecec35-1ca0-4c31-9c2d-0406838588c4
+cielo.merchantkey.pr: axdOKip8bnUOWf9WMdVj3P3c9myuT4lhqTA98XFE
+
+#DADOS DO ESTABELECIMENTO PIQUETE
+cielo.merchantid.pq: fcd0f08c-57eb-4dca-a1ac-1f95b7e27aae
+cielo.merchantkey.pq: 5kLWYkbRMsKhpprNuBqjBkxZKM8Q3uFo5y7U99pL
+
+#DADOS DO ESTABELECIMENTO AGUAS PONTES E LACERDA
+cielo.merchantid.ap: 4d0b77e7-6368-44b4-b74a-6a593d7216cf
+cielo.merchantkey.ap: Zhb8H7VAAZJ7scb1EOsI9Q6FPdubuBKQX1XiTKs7
+
+#DADOS DO ESTABELECIMENTO MIRASSOL
+cielo.merchantid.mi: dbf4ca95-e835-492b-909c-5a1452d828de
+cielo.merchantkey.mi: niWKAAVgeBPS1otCajR2Lvgg8T3AuzpdxKZ7qhqR
+
+#DADOS DO ESTABELECIMENTO ANDRADINA
+cielo.merchantid.an: 10b16600-b716-446d-b488-279ed5003f83
+cielo.merchantkey.an: DwVWf9OmFNbeyMw2PEkXKwrhgp8Crt4E5dTIMU35
+
+#DADOS DEFAULT
+cielo.installments: 1
+cielo.merchantorderid: 2014121201
+cielo.authenticate: false
+server:
+  port: 9999
+  servlet:
+    context-path: /igua-cielo-api
+webclient:
+  api:
+    cielo: https://api.cieloecommerce.cielo.com.br/ 
+        

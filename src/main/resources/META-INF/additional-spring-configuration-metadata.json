@@ -1,0 +1,162 @@
+{"properties": [
+  {
+    "name": "cielo.merchantid",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid'"
+  },
+  {
+    "name": "cielo.merchantkey",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey'"
+  },
+  {
+    "name": "cielo.merchantorderid",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantorderid'"
+  },
+  {
+    "name": "cielo.authenticate",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.authenticate'"
+  },
+  {
+    "name": "spring.datasource.test-on-borrow",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.test-on-borrow'"
+  },
+  {
+    "name": "spring.datasource.validation-query",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.validation-query'"
+  },
+  {
+    "name": "webclient.api.cielo",
+    "type": "java.lang.String",
+    "description": "A description for 'webclient.api.cielo'"
+  },
+  {
+    "name": "cielo.installments",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.installments'"
+  },
+  {
+    "name": "cielo.merchantid.af",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.af'"
+  },
+  {
+    "name": "cielo.merchantkey.af",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.af'"
+  },
+  {
+    "name": "cielo.merchantkey.ca",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.ca'"
+  },
+  {
+    "name": "cielo.merchantid.ca",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.ca'"
+  },
+  {
+    "name": "cielo.merchantid.cs",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.cs'"
+  },
+  {
+    "name": "cielo.merchantkey.cs",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.cs'"
+  },
+  {
+    "name": "cielo.merchantid.co",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.co'"
+  },
+  {
+    "name": "cielo.merchantkey.co",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.co'"
+  },
+  {
+    "name": "cielo.merchantid.cb",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.cb'"
+  },
+  {
+    "name": "cielo.merchantkey.cb",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.cb'"
+  },
+  {
+    "name": "cielo.merchantid.pl",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.pl'"
+  },
+  {
+    "name": "cielo.merchantkey.pl",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.pl'"
+  },
+  {
+    "name": "cielo.merchantid.it",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.it'"
+  },
+  {
+    "name": "cielo.merchantkey.it",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.it'"
+  },
+  {
+    "name": "cielo.merchantid.pr",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.pr'"
+  },
+  {
+    "name": "cielo.merchantkey.pr",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.pr'"
+  },
+  {
+    "name": "cielo.merchantid.pq",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.pq'"
+  },
+  {
+    "name": "cielo.merchantkey.pq",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.pq'"
+  },
+  {
+    "name": "cielo.merchantid.ap",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.ap'"
+  },
+  {
+    "name": "cielo.merchantkey.ap",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.ap'"
+  },
+  {
+    "name": "cielo.merchantid.mi",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.mi'"
+  },
+  {
+    "name": "cielo.merchantkey.mi",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.mi'"
+  },
+  {
+    "name": "cielo.merchantid.an",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantid.an'"
+  },
+  {
+    "name": "cielo.merchantkey.an",
+    "type": "java.lang.String",
+    "description": "A description for 'cielo.merchantkey.an'"
+  }
+]}
